@@ -1,0 +1,39 @@
+{
+  "name": "trailer",
+  "version": "0.0.1",
+  "description": "REST API to return the trailer URL of a selected Viaplay Film",
+  "main": "index.js",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "express": "^4.16.3",
+    "request-promise": "^4.2.2",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nock": "^9.3.3",
+    "nodemon": "^1.17.5",
+    "sinon": "^6.0.0",
+    "supertest": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "THE_MOVIE_DB_API_KEY=abc NODE_ENV=test mocha -R spec 'test/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torsjonas/trailer.git"
+  },
+  "keywords": [
+    "Trailers",
+    "TMDb",
+    "Viaplay"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torsjonas/trailer/issues"
+  },
+  "homepage": "https://github.com/torsjonas/trailer#readme"
+}

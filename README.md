@@ -4,6 +4,7 @@ Find a movie trailer for a given Viaplay Content API film.
 
 Requirements:
 Node 7.10.1
+
 A TMDb api key, get it here: https://www.themoviedb.org/documentation/api
 
 To run the server, clone this repository and do:
